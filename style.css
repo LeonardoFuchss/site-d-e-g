@@ -1,0 +1,610 @@
+
+
+
+@font-face {
+    font-family: font01;
+    src: url('fonts/blockbe-extracn/BlockBE ExtraCn/BlockBE ExtraCn.ttf'), format('truetype');
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    --cor01: #261201;
+    --cor02: #734116;
+    --cor03: #A68B6A;
+    --cor04: #F2D8A7;
+    --cor05: #8C5614;
+}
+#wpp {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    margin-left: 1590px;
+    margin-top: 37px;
+    border: none;
+    cursor: pointer;
+}
+
+#logosRedes {
+    width: 30px;
+    height: 30px;
+    margin-left: 1550px;
+    margin-top: 40px;
+    border-radius: 7px;
+    background-image: radial-gradient(circle at 33% 100%, #fed373, #f15245, #d92e7f, #9b36b7);
+    position: absolute;
+}
+
+#logosRedes::before {
+    content: "";
+    border: 2px solid;
+    border-radius: 35%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    color: #fff;
+    inset: 0;
+    margin: auto;
+}
+#logosRedes::after {
+    content: "";
+    border: 2px solid;
+    border-radius: 100%;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    color: #fff;
+    inset: 0;
+    margin: auto;
+}
+#logosRedes > span {
+    border: 1px solid;
+    border-radius: 100%;
+    position: absolute;
+    top: 8px;
+    right: 7px;
+    color: #fff;
+}
+header {
+    background-image: linear-gradient(to right, #fff, #8C2703);
+    height: 120px;
+    box-shadow: 6px 6px 6px #8c5614c2;
+}
+.navegador {
+    text-align: center;
+    background-color: var(--cor05);
+    height: 0px;
+}
+.navegador > nav {
+    padding-top: 5px;
+    position: absolute;
+    margin-left: 630px;
+}
+.navegador > nav > a {
+    text-decoration: none;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    color: #ffff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 20px;
+    background-color: #732B1A;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #ffff;
+}
+.navegador > nav > a:hover {
+    background-color: #261201;
+    color:#F2D8A7 ;
+}
+
+header > h1 {
+    text-align: center;
+    padding-top: 25px;
+    font-family: 'font01';
+    font-weight: normal;
+    color: #ffff;
+    font-size: 50px;
+    margin-left: 1100px;
+    
+}
+body {
+    background-image: url('imagens/amendoim2.jpg');
+    background-color: var(--cor02);
+}
+main {
+    background-color: #732B1A;
+    max-width: 1630px;
+    min-width: 300px;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    padding-bottom: 100px;
+    border: 3px groove var(--cor04);
+}
+.mainHome2 {
+    background-color: #732B1A;
+    max-width: 1630px;
+    min-width: 300px;
+    display: flex;
+    margin: auto;
+    margin-top: 5px;
+    padding-bottom: 100px;
+    border: 3px groove var(--cor04);
+    height: 700px;
+    margin-bottom: 10px;
+}
+.h1home {
+    color: #ffffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 1630px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    margin-top: 22px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    position: absolute; /* para se posicionar de forma absoluta de acordo com o main (sua div pai)*/
+}
+.categoria {
+    margin-left: 85px;
+    margin-top: 70px;
+    width: 300px;
+    height: 500px;
+    background-color: #9c2b11;
+    font-family: 'font01';
+    font-weight: normal;
+    letter-spacing: 0.10em;
+    color: var(--cor04);
+    border-radius: 20px;
+    border: 4px groove var(--cor04);
+    position: relative; /* permite que elementos filhos (absolute) sejam posicionado de acordo com ela mesma */
+}
+.categoria > h1 {
+    text-align: center;
+    padding-top: 10px;
+    letter-spacing: 0.10em;
+    color: #ffff;
+}
+.listaCategorias {
+    list-style-type: none;
+    text-align: center;
+    color:var(--cor05);
+}
+.listaCategorias > a {
+    text-decoration: none;
+    color: var(--cor04);
+}
+.listaCategorias > a:hover {
+    background-color: #261201;
+    color: #ffffff  ;
+}
+.listaCategorias > a > li {
+    font-size: 20px;
+    border: 2px solid var(--cor01);
+    padding-top: 0px;
+    margin-top: 30px;
+    border-radius: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.produtosMain {
+    background-color: #9c2b11;
+    max-width: 1000px;
+    min-width: 300px;
+    height: 500px;
+    margin-top: 70px;
+    margin-left: 130px;
+    border-radius: 20px;
+    border: 7px groove var(--cor04);
+    position: relative; /* permite que elementos filhos (absolute) sejam posicionado de acordo com ela mesma */
+}
+#h1Main {
+    text-align: center;
+    font-family: 'font01';
+    letter-spacing: 0.15em;
+    font-size: 60px;
+    color: #ffff;
+    padding-top: 15px;
+    position: absolute;
+    margin-left: 260px;
+}
+.carrossel {
+    width: 1000px;
+    height: 350px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 35px;
+    background-color: #a68b6a00;
+    padding-bottom: 100px;
+}
+.container {
+    display: flex;
+    transform: translateX(0);
+    width: 1000px;
+    height: 350px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    
+}
+
+.container > img {
+    width: 500px;
+    height: 350px;
+    margin-right: 20px;
+    border-radius: 20px;
+    border: 2px groove rgb(184, 54, 11);
+}
+.carrossel > p {
+    text-align: center;
+    font-size: 10px;
+    margin-left: 360px;
+    margin-top: 45px;
+    background-image: linear-gradient(to right, #9c2a11, #d24f1f);
+    border: 2px groove black;
+    width: 250px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 15px;
+    font-family: 'font01';
+    font-weight: normal;
+    letter-spacing: 0.05em;
+    position: absolute;
+}
+.carrossel > p > a {
+    text-decoration: none;
+    color: #ffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+#coco {
+    width: 80px;
+    height: 80px;
+    margin-left: 85px;
+}
+.mainCatalogo {
+    background-color: #732B1A;
+    border-radius: 30px;
+    height: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.conteudo {
+    margin: auto;
+    margin-top: 80px;
+    font-family: 'font01';
+    color: #261201;
+    font-weight: normal;
+}
+.conteudo > h1 {
+    margin-top: -30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 80px;
+    letter-spacing: 0.05em;
+    color: #fff;
+}
+.card {
+    width: 300px;
+    height: 510px;
+    background-color: #9c2a11;
+    border: 3px solid var(--cor04);
+    display: inline-flex;
+    flex-direction: column; /* empilhando os elementos */
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    vertical-align: top;
+}
+.card img {
+    margin-top: 20px;
+    width: 250px;
+    height: auto;
+}
+.card-content {
+    margin-top: 20px;
+    text-align:justify;
+    width: 90%;
+}
+.descricaoSobre {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    text-align: justify;
+    margin-left: 120px;
+    margin-top: 170px;
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.h1home2 {
+    color: var(--cor04);
+    font-family: 'font01';
+    width: 1630px;
+    margin-left: 230px;
+    margin-top: 35px;
+    font-size: 80px;
+    font-weight: normal;
+    letter-spacing: 0.15em;
+    position: absolute; /* para se posicionar de forma absoluta de acordo com o main (sua div pai)*/
+}
+.modelo {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    margin-left: 800px;
+    margin-top: 70px;
+    border-radius: 20px;
+}
+#logo {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    position: absolute;
+    padding-left: 175px;
+    margin-top: -57px;
+}
+.card-content > h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin-top: -15px;
+    padding-bottom: 10px;
+}
+.card-content > p {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffff;
+    margin-top: -10px;
+}
+.botaoWpp {
+    margin-top: 450px;
+    margin-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(200, 84, 22);
+    color: #ffff;
+    border-radius: 40px;
+    position: absolute;
+    border: 2px groove white;
+    cursor: pointer;
+    text-decoration: none;
+}
+#h1sobre {
+    font-family: font01;
+    color: #fff;
+    font-size: 100px;
+    font-weight: normal;
+    position: absolute;
+    margin-left: 250px;
+    text-align: center;
+    padding-top: 55px;
+}
+.descricaoSobre2 {
+    width: 600px;
+    height: 600px;
+    text-align: justify;
+    margin-left: 120px;
+    margin-top: 220px;
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+#wppFixed {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: none;
+    cursor: pointer;
+}
+#caminhoHelp {
+    background-color: rgb(23, 138, 23);
+    border: 2px groove wheat;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 1470px;
+    margin-top: -100px;
+    position: fixed;
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.simb {
+    font-size: 5em;
+    margin: auto;
+    padding-top: 40px;
+    font-family: font01;
+    font-weight: normal;
+    color: wheat;
+    
+    
+}
+#infoLoc {
+    font-size: 20px;
+    margin: auto;
+    padding-left: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+#mainContato {
+    display:flow-root;
+    height: 650px;
+    margin-bottom: 20px;
+}
+#divPrincipal {
+    margin: auto;
+    margin-left: 550px;
+}
+@media (max-width: 1024px) {
+    header > h1 {
+       font-size: 23px;
+       position: relative;
+       margin-left: 90px;
+       padding-top: 30px;
+    }
+    .navegador {
+        text-align: justify;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--cor05);
+        height: 0px;
+    }
+    .navegador > nav {
+        padding-top: 35px;
+        width: 327px;
+        margin-left: 35px;
+    }
+    .navegador > nav > a {
+       font-size: 8px;
+       padding-right: 10px;
+       padding-left: 10px;
+       margin-right: 15px;
+    }
+    #logo {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        position: absolute;
+        padding-left: 10px;
+        margin-top: -30px;
+    }
+    #logosRedes {
+        width: 30px;
+        height: 30px;
+        margin-left: 280px;
+        margin-top: 25px;
+        border-radius: 7px;
+        background-image: radial-gradient(circle at 33% 100%, #fed373, #f15245, #d92e7f, #9b36b7);
+        position: absolute;
+    }
+    #wpp {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        margin-left: 320px;
+        margin-top: 25px;
+        border: none;
+        cursor: pointer;
+    }
+    .carrossel {
+        width: 323px;
+        height: 350px;
+        overflow: hidden;
+        margin: auto;
+        margin-top: 40px;
+        background-color: #a68b6a00;
+        padding-bottom: 100px;
+    }
+    .container {
+        display: flex;
+        transform: translateX(0);
+        width: 340px;
+        height: 350px;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .produtosMain {
+        background-color: #9c2b11;
+        max-width: 1000px;
+        min-width: 300px;
+        height: 500px;
+        margin-top: 60px;
+        margin-left: 2px;
+        margin-right: 2px;
+        border-radius: 20px;
+        border: 7px groove var(--cor04);
+        position: relative; /* permite que elementos filhos (absolute) sejam posicionado de acordo com ela mesma */
+    }
+    #h1Main {
+        text-align: center;
+        font-family: 'font01';
+        letter-spacing: 0.15em;
+        font-size: 36px;
+        color: #ffff;
+        padding-top: 15px;
+        position: absolute;
+        margin-left: 30px;
+    }
+    .carrossel > p {
+        text-align: center;
+        font-size: 10px;
+        margin-left: 7px;
+        margin-top: 12px;
+        background-image: linear-gradient(to right, #9c2a11, #d24f1f);
+        border: 2px groove black;
+        width: 250px;
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 15px;
+        font-family: 'font01';
+        font-weight: normal;
+        letter-spacing: 0.05em;
+        position: absolute;
+    }
+    .container > img {
+        width: 1000px;
+        height: 350px;
+        margin-right: 20px;
+        border-radius: 20px;
+        border: 2px groove rgb(184, 54, 11);
+    }
+    #h1sobre {
+        font-family: font01;
+        color: #fff;
+        font-size: 100px;
+        font-weight: normal;
+        position: absolute;
+        margin-left: 70px;
+        text-align: center;
+        padding-top: 55px;
+    }
+    .descricaoSobre2 {
+        width: 400px;
+        height: 600px;
+        text-align: justify;
+        margin-left: 50px;
+        margin-top: 220px;
+        font-size: 27px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+    }
+    .categoria {
+        margin-left: 25px;
+        margin-top: 70px;
+        width: 300px;
+        height: 500px;
+        background-color: #9c2b11;
+        font-family: 'font01';
+        font-weight: normal;
+        letter-spacing: 0.10em;
+        color: var(--cor04);
+        border-radius: 20px;
+        border: 4px groove var(--cor04);
+        position: relative; /* permite que elementos filhos (absolute) sejam posicionado de acordo com ela mesma */
+    }
+    .card {
+        margin-left: 28px;
+    }
+    main {
+       display: block;
+    }
+   }
