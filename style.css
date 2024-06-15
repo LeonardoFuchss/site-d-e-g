@@ -452,7 +452,7 @@ main {
     margin: auto;
     margin-left: 550px;
 }
-@media (max-width: 1024px) {
+@media (max-width: 380px) {
     header > h1 {
        font-size: 23px;
        position: relative;
@@ -608,3 +608,160 @@ main {
        display: block;
     }
    }
+   @media (max-width: 450px) {
+    header > h1 {
+       font-size: 30px;
+       position: relative;
+       margin-left: 90px;
+       padding-top: 30px;
+    }
+    .navegador {
+        text-align: justify;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--cor05);
+        height: 0px;
+    }
+    .navegador > nav {
+        padding-top: 35px;
+        width: 327px;
+        margin-left: 50px;
+    }
+    .navegador > nav > a {
+       font-size: 8px;
+       padding-right: 10px;
+       padding-left: 10px;
+       margin-right: 15px;
+    }
+    #logo {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        position: absolute;
+        padding-left: 10px;
+        margin-top: -30px;
+    }
+    #logosRedes {
+        width: 30px;
+        height: 30px;
+        margin-left: 320px;
+        margin-top: 25px;
+        border-radius: 7px;
+        background-image: radial-gradient(circle at 33% 100%, #fed373, #f15245, #d92e7f, #9b36b7);
+        position: absolute;
+    }
+    #wpp {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        margin-left: 350px;
+        margin-top: 25px;
+        border: none;
+        cursor: pointer;
+    }
+    .carrossel {
+        width: 323px;
+        height: 350px;
+        overflow: hidden;
+        margin: auto;
+        margin-top: 40px;
+        background-color: #a68b6a00;
+        padding-bottom: 100px;
+    }
+    .container {
+        display: flex;
+        transform: translateX(0);
+        width: 355px;
+        height: 350px;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .produtosMain {
+        background-color: #9c2b11;
+        max-width: 1000px;
+        min-width: 300px;
+        height: 500px;
+        margin-top: 60px;
+        margin-left: 2px;
+        margin-right: 2px;
+        border-radius: 20px;
+        border: 7px groove var(--cor04);
+        position: relative; /* permite que elementos filhos (absolute) sejam posicionado de acordo com ela mesma */
+    }
+    #h1Main {
+        text-align: center;
+        font-family: 'font01';
+        letter-spacing: 0.15em;
+        font-size: 36px;
+        color: #ffff;
+        padding-top: 15px;
+        position: absolute;
+        margin-left: 30px;
+    }
+    .carrossel > p {
+        text-align: center;
+        font-size: 10px;
+        margin-left: 7px;
+        margin-top: 12px;
+        background-image: linear-gradient(to right, #9c2a11, #d24f1f);
+        border: 2px groove black;
+        width: 250px;
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 15px;
+        font-family: 'font01';
+        font-weight: normal;
+        letter-spacing: 0.05em;
+        position: absolute;
+    }
+    .container > img {
+        width: 1000px;
+        height: 350px;
+        margin-right: 20px;
+        border-radius: 20px;
+        border: 2px groove rgb(184, 54, 11);
+    }
+    #h1sobre {
+        font-family: font01;
+        color: #fff;
+        font-size: 100px;
+        font-weight: normal;
+        position: absolute;
+        margin-left: 70px;
+        text-align: center;
+        padding-top: 55px;
+    }
+    .descricaoSobre2 {
+        width: 400px;
+        height: 600px;
+        text-align: justify;
+        margin-left: 50px;
+        margin-top: 220px;
+        font-size: 27px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+    }
+    .categoria {
+        margin-left: 45px;
+        margin-top: 70px;
+        width: 300px;
+        height: 500px;
+        background-color: #9c2b11;
+        font-family: 'font01';
+        font-weight: normal;
+        letter-spacing: 0.10em;
+        color: var(--cor04);
+        border-radius: 20px;
+        border: 4px groove var(--cor04);
+        position: relative; /* permite que elementos filhos (absolute) sejam posicionado de acordo com ela mesma */
+    }
+    .card {
+        margin-left: 48px;
+    }
+    main {
+       display: block;
+    }
+   }
+
