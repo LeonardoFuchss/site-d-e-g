@@ -602,13 +602,13 @@ main {
         position: relative; /* permite que elementos filhos (absolute) sejam posicionado de acordo com ela mesma */
     }
     .card {
-        margin-left: 28px;
+        margin-left: 20px;
     }
     main {
        display: block;
     }
    }
-   @media (max-width: 450px) {
+   @media (max-width: 600px) {
     header > h1 {
        font-size: 30px;
        position: relative;
