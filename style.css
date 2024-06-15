@@ -623,9 +623,9 @@ main {
         height: 0px;
     }
     .navegador > nav {
-        padding-top: 35px;
+        padding-top: 30px;
         width: 327px;
-        margin-left: 50px;
+        margin-left: 65px;
     }
     .navegador > nav > a {
        font-size: 8px;
@@ -644,8 +644,8 @@ main {
     #logosRedes {
         width: 30px;
         height: 30px;
-        margin-left: 320px;
-        margin-top: 25px;
+        margin-left: 315px;
+        margin-top: 30px;
         border-radius: 7px;
         background-image: radial-gradient(circle at 33% 100%, #fed373, #f15245, #d92e7f, #9b36b7);
         position: absolute;
@@ -655,7 +655,7 @@ main {
         width: 30px;
         height: 30px;
         margin-left: 350px;
-        margin-top: 25px;
+        margin-top: 30px;
         border: none;
         cursor: pointer;
     }
@@ -671,7 +671,7 @@ main {
     .container {
         display: flex;
         transform: translateX(0);
-        width: 355px;
+        width: 365px;
         height: 350px;
         margin: auto;
         margin-top: 30px;
@@ -744,7 +744,7 @@ main {
         color: #fff;
     }
     .categoria {
-        margin-left: 45px;
+        margin-left: 55px;
         margin-top: 70px;
         width: 300px;
         height: 500px;
