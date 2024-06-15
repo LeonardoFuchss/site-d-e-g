@@ -608,7 +608,7 @@ main {
        display: block;
     }
    }
-   @media (max-width: 600px) {
+   @media (max-width: 1024px) {
     header > h1 {
        font-size: 30px;
        position: relative;
