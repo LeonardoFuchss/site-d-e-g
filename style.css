@@ -35,7 +35,10 @@
     background-image: radial-gradient(circle at 33% 100%, #fed373, #f15245, #d92e7f, #9b36b7);
     position: absolute;
 }
-
+#imgLeite {
+    width: 500px;
+    height: 350px;
+}
 #logosRedes::before {
     content: "";
     border: 2px solid;
@@ -572,7 +575,7 @@ footer {
         cursor: pointer;
     }
     .carrossel {
-        width: 323px;
+        width: 350px;
         height: 350px;
         overflow: hidden;
         margin: auto;
@@ -612,7 +615,7 @@ footer {
     .carrossel > p {
         text-align: center;
         font-size: 10px;
-        margin-left: 7px;
+        margin-left: 17px;
         margin-top: 12px;
         background-image: linear-gradient(to right, #9c2a11, #d24f1f);
         border: 2px groove black;
