@@ -495,7 +495,7 @@ footer {
 }
 .simb {
     font-size: 5em;
-    margin: auto;
+   
     padding-top: 40px;
     font-family: font01;
     font-weight: normal;
@@ -705,7 +705,7 @@ footer {
         margin-left: 30px;
     }
     #infoLoc {
-        padding-left: 10px;
+        padding-left: 70px;
         
     }
     .simb {
@@ -913,7 +913,7 @@ footer {
         margin-left: 30px;
     }
     #infoLoc {
-        padding-left: 10px;
+        padding-left: 70px;
         
     }
     .simb {
@@ -923,6 +923,15 @@ footer {
         font-family: font01;
         font-weight: normal;
         color: wheat;
+    }
+    #mainCat {
+        display: flow-root;
+    }
+    #doce1 {
+        margin-left: 5px;
+    }
+    #doce2 {
+        margin-left: 5px;
     }
    }
 
