@@ -1072,7 +1072,7 @@ footer {
         color: #fff;
     }
     .categoria {
-        margin-left: 40px;
+        margin-left: 50px;
         margin-top: 45px;
         width: 300px;
         height: 500px;
@@ -1092,17 +1092,17 @@ footer {
         padding-top: 140px;
     }
     .card {
-        margin-left: 40px;
+        margin-left: 55px;
     }
     #h1sobre {
         font-size: 50px;
         text-align: center;
         padding-top: 25px;
-        margin-left: 100px;
+        margin-left: 115px;
     }
     #descricaoSobre2 {
         width: 320px;
-        margin-left: 35px;
+        margin-left: 45px;
         margin-top: 120px;
         font-size: 17px;
         position: relative;
@@ -1111,7 +1111,7 @@ footer {
         width: 300px;
         height: 300px;
         position: relative;
-        margin-left: 45px;
+        margin-left: 55px;
         margin-top: -235px;
     }
     #mainSobre {
